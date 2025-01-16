@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Engine Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+        <div class="logo">
+          <img src="hirkaab.png" alt="">
+        </div>
+        <form action="" id="form-search">
+          <div class="search-container">
+            <input type="text"  id="search-box" placeholder="Search any Image here..." class="search-input">
+            <button class="search-button" type="submit">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="search-icon">
+                <path d="M10 2a8 8 0 105.292 14.708l5 5a1 1 0 101.415-1.415l-5-5A8 8 0 0010 2zm0 2a6 6 0 110 12A6 6 0 0110 4z"/>
+              </svg>
+            </button>
+          </div>
+        </form>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="search-result"></div>
+
+    <!-- Add pagination buttons here -->
+    <button id="show-more-btn">Show More</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
