@@ -6,7 +6,7 @@ const searchBox = document.getElementById("search-box"),
 
 
 // APIkey 
-const accesKey = "WrDKrTmQQxzrhf8HzgsZO02Ybbq_324_Mw7KbQwFmBc";
+const accesKey = "";
 
 // what we write 
 let keyword = "";
